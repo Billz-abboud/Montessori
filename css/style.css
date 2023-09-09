@@ -189,6 +189,16 @@ nav ul li a.logo {
 nav ul li a:hover {
   background-color: blue;
 }*/
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #ff0000;
+}
+
+button.navbar-toggler {
+  background-color: #111111;
+  height: 25px;
+  width: 25px;
+}
 
 
 /*** Header carousel ***/
