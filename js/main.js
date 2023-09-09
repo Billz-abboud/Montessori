@@ -16,29 +16,20 @@
     new WOW().init();
 
 
- function classToggle() {
-  const navs = document.querySelectorAll('.Navbar__Items')
-  
-  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-}
+const navbarToggle = navbar.querySelector("#navbar-toggle");
+const navbarMenu = document.querySelector("#navbar-menu");
+const navbarLinksContainer = navbarMenu.querySelector(".navbar-links");
+let isNavbarExpanded = navbarToggle.getAttribute("aria-expanded") === "true";
 
-document.querySelector('.Navbar__Link-toggle')
-  .addEventListener('click', classToggle);
+const toggleNavbarVisibility = () => {
+  isNavbarExpanded = !isNavbarExpanded;
+  navbarToggle.setAttribute("aria-expanded", isNavbarExpanded);
+};
 
+navbarToggle.addEventListener("click", toggleNavbarVisibility);
 
-    // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        items: 1,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
+navbarLinksContainer.addEventListener("click", (e) => e.stopPropagation());
+navbarMenu.addEventListener("click", toggleNavbarVisibility);
 
 
     // Testimonials carousel
