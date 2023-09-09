@@ -95,7 +95,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
-.container {
+.container1 {
   max-width: 1000px;
   padding-left: 1.4rem;
   padding-right: 1.4rem;
@@ -111,7 +111,7 @@ body {
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
-.navbar-container {
+.navbar-container1 {
   display: flex;
   justify-content: space-between;
   height: 100%;
