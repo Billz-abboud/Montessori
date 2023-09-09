@@ -3,10 +3,6 @@
     --primary: #06BBCC;
     --light: #F0FBFC;
     --dark: #181d38;
-      --navbar-bg-color: hsl(0, 0%, 15%);
-  --navbar-text-color: hsl(0, 0%, 85%);
-  --navbar-text-color-focus: white;
-  --navbar-bg-contrast: hsl(0, 0%, 25%);
 }
 
 .fw-medium {
@@ -111,7 +107,7 @@ body {
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
-.navbar-container1 {
+.navbar-container2 {
   display: flex;
   justify-content: space-between;
   height: 100%;
