@@ -23,4 +23,12 @@
     background-color: #04AA6D;
     color: white;
   }
-  
+
+#loginform{
+    text-align: center;
+    margin: auto
+}
+body{
+    text-align: center;
+    margin: auto
+}
