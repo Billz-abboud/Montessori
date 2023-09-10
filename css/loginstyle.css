@@ -5,7 +5,7 @@
     padding: 14px 28px;
     font-size: 20px;
     cursor: pointer;
-    border-color: #04AA6D;
+    border-color: #06bbcc;
     color: blue;
 }
 .btn {
@@ -15,12 +15,12 @@
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    border-color: #04AA6D;
+    border-color: #06bbcc;
     color: green;
   }
   
 .btn:hover {
-    background-color: #04AA6D;
+    background-color: #06bbcc;
     color: white;
   }
 
