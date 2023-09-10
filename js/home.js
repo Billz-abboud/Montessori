@@ -1,4 +1,10 @@
-
+var oddvideo = [
+  'vid-1',
+  'vid-2',
+  'vid-3',
+  'vid-4',
+  'vid-5',
+];
 let toggleBtn = document.getElementById('toggle-btn');
 let body = document.body;
 let darkMode = localStorage.getItem('dark-mode');
