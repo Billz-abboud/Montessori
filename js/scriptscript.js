@@ -1,3 +1,11 @@
+$.getJSON("users.json", function(data) {
+    console.log(data);
+    // data is a JavaScript object now. Handle it as such
+
+});
+
+
+
 var objPeople = [
 	{ // Object @ 0 index
 		username: "bilal",
