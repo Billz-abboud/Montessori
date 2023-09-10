@@ -19,7 +19,7 @@ function getInfoo() {
 		if(username == objPeople[i].username && password == objPeople[i].password) {
 			console.log(username + " is logged in!!!")
 			// stop the function if this is found to be true
-                        window.location.href="home.html";
+                        window.location.href="/home.html";
 			return
 		}
 	}
