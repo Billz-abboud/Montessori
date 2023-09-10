@@ -10,7 +10,7 @@ var objPeople = [
 	}
 ]
 
-function getInfo() {
+function getInfoo() {
 	var username = document.getElementById('username').value
 	var password = document.getElementById('password').value
 
@@ -19,9 +19,8 @@ function getInfo() {
 		if(username == objPeople[i].username && password == objPeople[i].password) {
 			console.log(username + " is logged in!!!")
 			// stop the function if this is found to be true
-            window.location.href = "home.html";
+                        window.location.href="home.html";
 			return
-            
 		}
 	}
 	console.log("incorrect username or password")
