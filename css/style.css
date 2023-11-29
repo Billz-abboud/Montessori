@@ -28,6 +28,11 @@ table, th, td, tr, tbody {
   font-family: "Lucida Console", "Courier New", monospace;
     font-weight: bold;
 }
+#imgterms{
+    width:60%;
+    height:30%;
+    
+}
 /*#logoh1{
     width:30%;
     height: 30%;
